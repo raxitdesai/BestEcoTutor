@@ -1,0 +1,10 @@
+{
+  "test_name": "footprint_calculation_flow",
+  "input": "I use 200 kWh electricity, 6000 L water and drive 120 km monthly. Help me reduce 20%.",
+  "expected_tool_calls": ["calculate_footprint", "simulate_reduction"],
+  "success_criteria": [
+    "numeric breakdown",
+    "20% reduction explanation",
+    "personalized action plan"
+  ]
+}
